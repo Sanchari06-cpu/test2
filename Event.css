@@ -1,0 +1,195 @@
+.colorbg
+{
+    background-color:  #FEF7FF;
+
+}
+.topbanner
+{
+  background-color: #65558F;
+  box-shadow: 0px 1px 3px 0px #0000004D;
+  box-shadow: 0px 4px 8px 3px #00000026;
+  width: 100%;
+  padding-right: 30px; 
+  margin-left: -10px;
+  margin-top: -10px;
+}
+.links
+{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 30%;
+  display: inline-block;
+
+}
+a, a:visited, a:hover, a:active
+{
+  color: white;
+  margin-right: 20px;
+  font-family: Hug;
+  opacity: 0px;
+  text-decoration: none;
+  
+}
+
+.icon {
+  display: none;
+
+}
+.megatitle
+{
+  padding-top: 10px;
+  width: 30%;
+  display: inline-block;
+  padding-right: 25px;
+  padding-left: 40px;
+  color: white;
+}
+.logo{
+    width: 45px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.logodiv{
+ width: 1%;
+  display: inline-block;
+ padding-right: 25px;
+  padding-left: 40px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .links {display: none;}
+  .icon {
+    margin-right: 0%;
+    margin-left: 29%;
+    display: inline-block;
+  }
+}
+
+.about{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #E8DEF8;
+  padding: 10px;
+  margin-bottom: 8px;
+  margin-top: 15px;
+
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: left;
+  background-color: #F9DEDC;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.flex-item-left {
+  top: 50%;
+  padding: 20px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  top: 50%;
+  padding: 20px;
+  flex: 50%;
+}
+
+
+h3,h4
+{
+  font-famity: Impact;
+}
+
+.img1
+{
+    height: 100%;
+    width :100%;
+}
+
+footer
+{
+  background-color: #65558F;
+  box-shadow: 0px 1px 3px 0px #0000004D;
+  box-shadow: 0px 4px 8px 3px #00000026;
+  width: 100%;
+  margin-left: -10px;
+  color: white;
+  padding: 10px; 
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+
+.imag
+{
+
+      height:200px;
+}
+
+h4
+{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: left;
+  background-color: #65558F;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.flex-item-left2 {
+  top: 50%;
+  padding: 20px;
+  flex: 50%;
+}
+
+.flex-item-right2 {
+  top: 50%;
+  padding: 20px;
+  flex: 50%;
+}
+
+.flex-item-center2 {
+  top: 50%;
+  padding: 20px;
+  flex: 50%;
+}
+    
+ul {
+  list-style-type: none;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-container2{
+    flex-direction: column;
+  }
+}
+
+
